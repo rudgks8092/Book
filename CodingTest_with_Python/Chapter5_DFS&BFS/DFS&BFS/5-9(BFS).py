@@ -32,7 +32,7 @@ def bfs(graph, start, visited):
         print(v, end=' ')
         # 방문 하지 않은 원소 큐 삽입
         for i in graph[v]:
-            if not visited[i]:
+            if not visited[i]:  
                 queue.append(i)
                 visited[i] =True
 
